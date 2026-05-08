@@ -1,0 +1,7 @@
+{
+  "name": "mdt-bound-unbound",
+  "author": "monthzifang",
+  "main": "com.mdt.bound.BoundUnboundPlugin",
+  "description": "基于 com id 和外部接口结果识别玩家是否绑定，并在玩家名称前显示已绑定或未绑定状态，结果写入列表数据系统供其他插件复用。",
+  "version": "v1"
+}

@@ -1,0 +1,25 @@
+{
+  "metadataVersion": 1,
+  "name": "mdt-bound-unbound",
+  "displayName": "MDT Bound Unbound",
+  "displayNameZh": "MDT 绑定与未绑定",
+  "author": "monthzifang",
+  "description": "Identifies whether a player is bound by using com id and external results, then writes the state back to list data.",
+  "descriptionZh": "基于 com id 和外部接口结果识别玩家是否绑定，并在玩家名称前显示已绑定或未绑定状态，结果写入列表数据系统供其他插件复用。",
+  "version": "v1",
+  "requiredMarketVersion": "v1",
+  "channel": "native",
+  "targets": [
+    "original"
+  ],
+  "downloadUrls": [
+    "https://raw.githubusercontent.com/MonthZifang/mdt-Bound-Unbound/main/dist/mdt-bound-unbound.jar",
+    "https://raw.githubusercontent.com/MonthZifang/mdt-Bound-Unbound/main/plugin.json"
+  ],
+  "dependencies": [
+    "mdt-jump-plugin",
+    "mdt-list-data-system"
+  ],
+  "repositoryUrl": "https://github.com/MonthZifang/mdt-Bound-Unbound",
+  "entry": "com.mdt.bound.BoundUnboundPlugin"
+}
